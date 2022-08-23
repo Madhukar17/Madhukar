@@ -1,0 +1,18 @@
+.flex-container{
+  display: flex;
+  height: 300px;
+  border: 3px solid blue;
+  flex-direction: row;
+  justify-content: center;  /* Align the child content in X direction (left to right) */
+  align-items: center; /* Align the child content in Y direction (top to bottom) */
+}
+
+.flex-item{
+  width: 250px;
+  height: 150px;
+  border: 3px solid black;
+}
+
+.align-self{
+  align-self: flex-start; /* Align the child content in Y direction (top to bottom) */
+}
